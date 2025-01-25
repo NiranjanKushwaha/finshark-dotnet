@@ -1,0 +1,42 @@
+# Node.js dependencies (for frontEnd)
+node_modules/
+frontEnd/node_modules/
+
+# Build outputs (for frontEnd)
+frontEnd/build/
+frontEnd/dist/
+
+# Package lock file (remove if you want to track it for version consistency)
+frontEnd/package-lock.json
+
+# Logs
+frontEnd/npm-debug.log*
+frontEnd/yarn-debug.log*
+frontEnd/yarn-error.log*
+
+# Environment files
+frontEnd/.env
+frontEnd/.env.local
+frontEnd/.env.*.local
+
+# IDE and editor settings
+frontEnd/.idea/
+frontEnd/.vscode/
+
+# dotnet project (folder name api)
+# Build outputs
+api/bin/
+api/obj/
+
+# User-specific files
+api/.vs/
+api/*.user
+api/*.suo
+
+# Environment files
+api/*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
